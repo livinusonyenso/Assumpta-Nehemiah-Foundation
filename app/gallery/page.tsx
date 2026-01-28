@@ -11,7 +11,8 @@ export default function GalleryPage() {
   const [activeFilter, setActiveFilter] = useState("All")
   const [mediaType, setMediaType] = useState("All")
 
-  const categories = ["All", "Education", "Healthcare", "Community", "Events", "Infrastructure"]
+  const categories = ["All", "Education", "Healthcare", "Community",]
+  // const categories = ["All", "Education", "Healthcare", "Community", "Events", "Infrastructure"]
   const mediaTypes = ["All", "Photos", "Videos"]
 
   const galleryItems = [
@@ -23,7 +24,7 @@ export default function GalleryPage() {
       category: "Education",
       location: "Kano, Nigeria",
       date: "December 2024",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/educuation1.jpg?height=400&width=600",
       tags: ["education", "school", "ceremony"],
     },
     {
@@ -34,7 +35,7 @@ export default function GalleryPage() {
       category: "Healthcare",
       location: "Rural Ghana",
       date: "November 2024",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/health1.jpg?height=400&width=600",
       duration: "3:45",
       tags: ["healthcare", "mobile clinic", "rural"],
     },
@@ -46,7 +47,7 @@ export default function GalleryPage() {
       category: "Community",
       location: "Lagos, Nigeria",
       date: "November 2024",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/community1.jpg?height=400&width=600",
       tags: ["skills", "training", "women empowerment"],
     },
     {
@@ -80,7 +81,7 @@ export default function GalleryPage() {
       category: "Education",
       location: "Accra, Ghana",
       date: "September 2024",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/educuation2.jpg?height=400&width=600",
       tags: ["scholarship", "students", "education"],
     },
     {
@@ -91,7 +92,7 @@ export default function GalleryPage() {
       category: "Community",
       location: "Bamako, Mali",
       date: "August 2024",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/community2.jpg?height=400&width=600",
       tags: ["agriculture", "community", "sustainability"],
     },
     {
@@ -102,7 +103,7 @@ export default function GalleryPage() {
       category: "Community",
       location: "Kampala, Uganda",
       date: "August 2024",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/community3.jpg?height=400&width=600",
       duration: "4:15",
       tags: ["volunteers", "training", "orientation"],
     },
@@ -114,7 +115,7 @@ export default function GalleryPage() {
       category: "Healthcare",
       location: "Northern Nigeria",
       date: "July 2024",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/health2.jpg?height=400&width=600",
       tags: ["medical equipment", "donation", "healthcare"],
     },
   ]
@@ -293,23 +294,18 @@ export default function GalleryPage() {
 
           <div className="max-w-4xl mx-auto">
             <Card className="overflow-hidden">
-              <div className="relative">
-                <Image
-                  src="/placeholder.svg?height=500&width=800"
-                  alt="Featured documentary"
-                  width={800}
-                  height={500}
-                  className="w-full h-96 object-cover"
+              <div className="relative aspect-video">
+                <iframe
+                  src="https://www.youtube.com/embed/Ef98VIF6HPc"
+                  title="Transforming Lives: Our Journey"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full absolute inset-0"
                 />
-                <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
-                  <div className="text-center text-white">
-                    <div className="w-20 h-20 bg-deep-pink rounded-full flex items-center justify-center cursor-pointer hover:bg-deep-pink/90 transition-colors mx-auto mb-4">
-                      <Play className="w-10 h-10 text-white ml-1" />
-                    </div>
-                    <h3 className="text-2xl font-bold mb-2">Transforming Lives: Our Journey</h3>
-                    <p className="text-lg">Duration: 15:30</p>
-                  </div>
-                </div>
+              </div>
+              <div className="p-4 text-center">
+                <h3 className="text-xl font-bold text-royal-plum mb-2">Transforming Lives: Our Journey</h3>
+                <p className="text-gray-600">Watch our latest documentary showcasing the impact of our work across Africa</p>
               </div>
             </Card>
           </div>

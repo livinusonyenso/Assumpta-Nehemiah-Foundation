@@ -15,7 +15,7 @@ export default function BlogPage() {
     author: "Dr. Sarah Assumpta",
     date: "December 15, 2024",
     category: "Education",
-    image: "/placeholder.svg?height=400&width=800",
+    image: "https://images.unsplash.com/photo-1744809495173-217ca4faa8bc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2hpbGRyZW4lMjBsZWFybmluZyUyMGluJTIwQWZyaWNhfGVufDB8fDB8fHww?height=400&width=800",
     readTime: "5 min read",
   }
 
@@ -28,7 +28,7 @@ export default function BlogPage() {
       author: "Dr. Michael Adebayo",
       date: "December 10, 2024",
       category: "Healthcare",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/blogImage1.jpg?height=300&width=400",
       readTime: "4 min read",
     },
     {
@@ -39,7 +39,7 @@ export default function BlogPage() {
       author: "Grace Okafor",
       date: "December 5, 2024",
       category: "Empowerment",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/blogImage2.jpg?height=300&width=400",
       readTime: "6 min read",
     },
     {
@@ -49,31 +49,31 @@ export default function BlogPage() {
       author: "David Adebayo",
       date: "November 28, 2024",
       category: "Water & Sanitation",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://upload.wikimedia.org/wikipedia/en/6/69/Villagers_using_a_water_pump_%28Balogun%2C_Nigeria%29.jpg?height=300&width=400",
       readTime: "3 min read",
     },
-    {
-      id: 5,
-      title: "Partnership Spotlight: Working with Local Communities",
-      excerpt:
-        "How collaboration with local leaders and organizations strengthens our impact and ensures sustainability.",
-      author: "Grace Okafor",
-      date: "November 20, 2024",
-      category: "Partnerships",
-      image: "/placeholder.svg?height=300&width=400",
-      readTime: "5 min read",
-    },
-    {
-      id: 6,
-      title: "Youth Entrepreneurship: Creating Future Leaders",
-      excerpt:
-        "Meet the young entrepreneurs who are transforming their communities through our business development programs.",
-      author: "Michael Nehemiah",
-      date: "November 15, 2024",
-      category: "Youth Development",
-      image: "/placeholder.svg?height=300&width=400",
-      readTime: "4 min read",
-    },
+    // {
+    //   id: 5,
+    //   title: "Partnership Spotlight: Working with Local Communities",
+    //   excerpt:
+    //     "How collaboration with local leaders and organizations strengthens our impact and ensures sustainability.",
+    //   author: "Grace Okafor",
+    //   date: "November 20, 2024",
+    //   category: "Partnerships",
+    //   image: "/placeholder.svg?height=300&width=400",
+    //   readTime: "5 min read",
+    // },
+    // {
+    //   id: 6,
+    //   title: "Youth Entrepreneurship: Creating Future Leaders",
+    //   excerpt:
+    //     "Meet the young entrepreneurs who are transforming their communities through our business development programs.",
+    //   author: "Michael Nehemiah",
+    //   date: "November 15, 2024",
+    //   category: "Youth Development",
+    //   image: "/placeholder.svg?height=300&width=400",
+    //   readTime: "4 min read",
+    // },
   ]
 
   const categories = [
@@ -222,7 +222,7 @@ export default function BlogPage() {
         </div>
 
         {/* Load More */}
-        <div className="text-center mt-12">
+        {/* <div className="text-center mt-12">
           <Button
             variant="outline"
             size="lg"
@@ -230,7 +230,7 @@ export default function BlogPage() {
           >
             Load More Articles
           </Button>
-        </div>
+        </div> */}
       </div>
 
       {/* Newsletter Signup */}

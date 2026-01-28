@@ -14,9 +14,15 @@ export function Footer() {
               resilient communities across Africa.
             </p>
             <div className="flex space-x-4">
-              <Facebook className="w-6 h-6 text-deep-pink hover:text-white cursor-pointer" />
-              <Twitter className="w-6 h-6 text-deep-pink hover:text-white cursor-pointer" />
-              <Instagram className="w-6 h-6 text-deep-pink hover:text-white cursor-pointer" />
+              <a href="https://www.facebook.com/profile.php?id=100069645030436" target="_blank" rel="noopener noreferrer">
+                <Facebook className="w-6 h-6 text-deep-pink hover:text-white cursor-pointer" />
+              </a>
+              <a href="https://x.com/neheassumfund" target="_blank" rel="noopener noreferrer">
+                <Twitter className="w-6 h-6 text-deep-pink hover:text-white cursor-pointer" />
+              </a>
+              <a href="https://www.instagram.com/assu.mptanehemiahfoundation/" target="_blank" rel="noopener noreferrer">
+                <Instagram className="w-6 h-6 text-deep-pink hover:text-white cursor-pointer" />
+              </a>
             </div>
           </div>
 
@@ -62,7 +68,7 @@ export function Footer() {
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="w-5 h-5 text-deep-pink" />
-                <span className="text-gray-300">+234 123 456 7890</span>
+                <span className="text-gray-300">+234 903 230 1920</span>
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin className="w-5 h-5 text-deep-pink" />

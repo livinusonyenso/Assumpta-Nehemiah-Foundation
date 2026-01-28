@@ -45,7 +45,7 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?height=400&width=600"
                 alt="Community empowerment"
                 width={600}
                 height={400}
@@ -95,7 +95,7 @@ export default function HomePage() {
               </CardHeader>
               <CardContent>
                 <Image
-                  src="/placeholder.svg?height=200&width=300"
+                  src="https://images.unsplash.com/photo-1627423896085-e3e694d88e40?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?height=200&width=300"
                   alt="Education program"
                   width={300}
                   height={200}
@@ -117,7 +117,7 @@ export default function HomePage() {
               </CardHeader>
               <CardContent>
                 <Image
-                  src="/placeholder.svg?height=200&width=300"
+                  src="https://plus.unsplash.com/premium_photo-1682129941003-a982e0fa7474?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?height=200&width=300"
                   alt="Healthcare program"
                   width={300}
                   height={200}
@@ -139,7 +139,7 @@ export default function HomePage() {
               </CardHeader>
               <CardContent>
                 <Image
-                  src="/placeholder.svg?height=200&width=300"
+                  src="https://images.unsplash.com/photo-1679134015772-943d09a750ae?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fHlvdXRoJTIwdm9jYXRpb25hbCUyMHRyYWluaW5uZyUyMGFmcmljYXxlbnwwfHwwfHx8MA%3D%3D?height=200&width=300"
                   alt="Skills training program"
                   width={300}
                   height={200}

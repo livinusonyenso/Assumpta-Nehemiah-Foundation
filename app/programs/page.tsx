@@ -16,7 +16,7 @@ export default function ProgramsPage() {
       status: "Active",
       beneficiaries: "500+ Students",
       location: "Nigeria, Ghana, Kenya",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://www.developafrica.org/files/kids-excitement-school-supplies.jpg?height=300&width=400",
       details:
         "Our flagship program focuses on breaking the cycle of poverty through education. We provide full scholarships, learning materials, and support infrastructure including libraries and computer labs.",
     },
@@ -28,7 +28,7 @@ export default function ProgramsPage() {
       status: "Active",
       beneficiaries: "10,000+ Patients",
       location: "Rural Nigeria, Uganda",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://cdn.vanguardngr.com/wp-content/uploads/2023/05/Pix-4-scaled.jpg?height=300&width=400",
       details:
         "Through our mobile health units, we provide primary healthcare, preventive care, and health education to communities with limited access to medical facilities.",
     },
@@ -40,7 +40,7 @@ export default function ProgramsPage() {
       status: "Active",
       beneficiaries: "300+ Trainees",
       location: "Lagos, Accra, Nairobi",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://pindfoundation.org/wp-content/uploads/2024/03/pind-yep.jpg?height=300&width=400",
       details:
         "We offer training in high-demand skills including tailoring, carpentry, digital literacy, and small business management to promote economic independence.",
     },
@@ -52,7 +52,7 @@ export default function ProgramsPage() {
       status: "Ongoing",
       beneficiaries: "150+ Families",
       location: "Northern Nigeria",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://bullionriseconsult.com/wp-content/uploads/2024/06/site-preparation-and-foundation-work-bullionrise-consult-1024x576.webp?height=300&width=400",
       details:
         "Providing safe, affordable housing and essential infrastructure like wells, schools, and community centers for families affected by conflict or natural disasters.",
     },
@@ -64,7 +64,7 @@ export default function ProgramsPage() {
       status: "Active",
       beneficiaries: "2,000+ Individuals",
       location: "Rural Communities",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://www.vsointernational.org/sites/default/files/styles/600x400/public/RS58435__52H2998-lpr.jpg?itok=_XoRrOtj?height=300&width=400",
       details:
         "Teaching sustainable farming techniques, providing seeds and tools, and establishing community gardens to ensure long-term food security.",
     },
@@ -76,7 +76,7 @@ export default function ProgramsPage() {
       status: "Expanding",
       beneficiaries: "5,000+ People",
       location: "Chad, Niger, Mali",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://www.planet.gr/sites/default/files/2024-12/Nigeria%201.jpg?height=300&width=400",
       details:
         "Providing access to clean, safe drinking water through borehole drilling, water treatment systems, and hygiene education programs.",
     },

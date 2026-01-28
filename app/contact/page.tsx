@@ -166,7 +166,7 @@ export default function ContactPage() {
                   <Phone className="w-5 h-5 text-deep-pink mt-1" />
                   <div>
                     <div className="font-medium">Phone</div>
-                    <div className="text-sm text-gray-600">+234 123 456 7890</div>
+                    <div className="text-sm text-gray-600">+234 903 230 1920</div>
                   </div>
                 </div>
 
@@ -223,7 +223,7 @@ export default function ContactPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-sm mb-2">For urgent matters or emergencies related to our programs:</p>
-                <div className="font-medium">+234 123 456 7890</div>
+                <div className="font-medium">+234 903 230 1920</div>
                 <div className="text-sm">Available 24/7</div>
               </CardContent>
             </Card>
